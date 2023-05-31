@@ -184,10 +184,12 @@
   <ItemGroup>
     <ClCompile Include="DrinkItem.cpp" />
     <ClCompile Include="Drink_Drder_System.cpp" />
+    <ClCompile Include="OrderItem.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DrinkItem.h" />
     <ClInclude Include="Drink_Drder_System.h" />
+    <ClInclude Include="OrderItem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
