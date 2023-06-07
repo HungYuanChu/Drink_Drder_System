@@ -20,14 +20,14 @@ int main()
 
 void AddNewDrink(std::vector<DrinkItem>& drinks)
 {
-    drinks.push_back(DrinkItem("紅茶", "中杯", 30));
-    drinks.push_back(DrinkItem("紅茶", "大杯", 40));
-    drinks.push_back(DrinkItem("綠茶", "中杯", 35));
-    drinks.push_back(DrinkItem("綠茶", "大杯", 45));
-    drinks.push_back(DrinkItem("奶茶", "中杯", 50));
-    drinks.push_back(DrinkItem("奶茶", "大杯", 60));
-    drinks.push_back(DrinkItem("烏龍茶", "中杯", 25));
-    drinks.push_back(DrinkItem("烏龍茶", "大杯", 30));
+    drinks.push_back(DrinkItem("紅茶", "中杯", 40));
+    drinks.push_back(DrinkItem("紅茶", "大杯", 60));
+    drinks.push_back(DrinkItem("綠茶", "中杯", 40));
+    drinks.push_back(DrinkItem("綠茶", "大杯", 60));
+    drinks.push_back(DrinkItem("咖啡", "中杯", 50));
+    drinks.push_back(DrinkItem("咖啡", "大杯", 70));
+    drinks.push_back(DrinkItem("可樂", "中杯", 20));
+    drinks.push_back(DrinkItem("可樂", "大杯", 40));
 }
 
 void DisplayDrinkMenu(vector<DrinkItem>& drinks) {
